@@ -1,0 +1,26 @@
+{
+    "u1a2b3c4-d555-4aa1-89ab-111122223333": [
+        {
+            "accion": "Unidad registrada",
+            "fecha": "2025-05-24T08:00:00"
+        },
+        {
+            "accion": "Unidad despachada a alerta a1b2c3d4-e111-4fa7-bb55-1234567890ab",
+            "fecha": "2025-05-24T09:35:00"
+        },
+        {
+            "accion": "Unidad en trayecto",
+            "fecha": "2025-05-24T09:40:00"
+        }
+    ],
+    "u5e6f7g8-h666-4aa1-89ab-444455556666": [
+        {
+            "accion": "Unidad registrada",
+            "fecha": "2025-05-24T08:10:00"
+        },
+        {
+            "accion": "Unidad despachada a alerta d5e6f7g8-h222-4fa7-bb55-9876543210cd",
+            "fecha": "2025-05-24T10:05:00"
+        }
+    ]
+}

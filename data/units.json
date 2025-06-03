@@ -1,0 +1,20 @@
+[
+    {
+        "id": "u1a2b3c4-d555-4aa1-89ab-111122223333",
+        "nombre": "Unidad Alfa",
+        "estado": "disponible",
+        "alerta_asignada": null
+    },
+    {
+        "id": "u5e6f7g8-h666-4aa1-89ab-444455556666",
+        "nombre": "Unidad Beta",
+        "estado": "ocupada",
+        "alerta_asignada": "a1b2c3d4-e111-4fa7-bb55-1234567890ab"
+    },
+    {
+        "id": "u9k0l1m2-p777-4aa1-89ab-777788889999",
+        "nombre": "Unidad Gamma",
+        "estado": "disponible",
+        "alerta_asignada": null
+    }
+]

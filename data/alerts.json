@@ -1,0 +1,26 @@
+[
+    {
+        "id": "a1b2c3d4-e111-4fa7-bb55-1234567890ab",
+        "location": "Av. Arequipa",
+        "incident_type": "Incendio",
+        "priority": 1,
+        "status": "pendiente",
+        "timestamp": "2025-05-24T09:30:00"
+    },
+    {
+        "id": "d5e6f7g8-h222-4fa7-bb55-9876543210cd",
+        "location": "Jr. Lampa",
+        "incident_type": "Asalto",
+        "priority": 2,
+        "status": "pendiente",
+        "timestamp": "2025-05-24T10:00:00"
+    },
+    {
+        "id": "j9k0l1m2-n333-4fa7-bb55-1928374650ef",
+        "location": "Plaza San Mart\u00edn",
+        "incident_type": "Accidente vehicular",
+        "priority": 3,
+        "status": "resuelta",
+        "timestamp": "2025-05-24T08:45:00"
+    }
+]
