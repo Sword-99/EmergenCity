@@ -4,13 +4,14 @@ import uuid
 from datetime import datetime
 
 class Alert:
-    def __init__(self, location, incident_type, priority):
-        self.id = str(uuid.uuid4())
-        self.location = location
-        self.incident_type = incident_type
-        self.priority = priority  # 1 = alta, 2 = media, 3 = baja
+    def __init__(self, ubicacion, tipo, prioridad, descripcion=""):
+        self.location = ubicacion
+        self.incident_type = tipo
+        self.priority = prioridad
+        self.descripcion = descripcion
+        self.status = "Pendiente"
         self.timestamp = datetime.now().isoformat()
-        self.status = "pendiente"  # o "resuelta"
+        self.id = str(uuid.uuid4())
 
     def __str__(self):
         return (f"[{self.priority}] Alerta {self.id[:8]} - "
@@ -20,11 +21,11 @@ class AlertManager:
     def __init__(self):
         self.alerts = []
 
-    def registrar_alerta(self, location, incident_type, priority):
-        nueva_alerta = Alert(location, incident_type, priority)
-        self.alerts.append(nueva_alerta)
-        print(f"Alerta registrada:\n{nueva_alerta}")
-        return nueva_alerta
+    def registrar_alerta(self, ubicacion, tipo, prioridad, descripcion=""):
+        alerta = Alert(ubicacion, tipo, prioridad, descripcion)
+        self.alerts.append(alerta)
+        print(f"Alerta registrada:\n{alerta}")
+        return alerta
 
     def listar_alertas(self, estado=None):
         if estado:
